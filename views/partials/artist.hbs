@@ -1,0 +1,7 @@
+<div class="container">
+    {{#with images.[0]}}
+        <img src="{{url}}" alt="no image">
+    {{/with}}
+    <p>{{this.name}}</p>
+    <a href="/albums/{{this.id}}">View albums</a>
+</div>

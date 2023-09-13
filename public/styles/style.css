@@ -1,0 +1,85 @@
+img {
+    width: 15vw;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    background-color: gray;
+    width: 15vw;
+    height: 25vw;
+    text-align: center;
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    margin: 5vw 0;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5% 0;
+    background-color: lightgray;
+    margin-bottom: 2.5%;
+    justify-content: space-between;
+}
+
+form {
+    background-image: url("/images/spotify-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 2.5vw;
+    text-align: center;
+    padding: 20vw 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.form {
+    width: 20vw;
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 2.5vw 10vw;
+}
+
+button {
+    margin-top: 2.5vw;
+    padding: 1vw;
+    background-color: brown;
+    color: white;
+    border-radius: 1vw;
+}
+
+input {
+    width: 30vw;
+    height: 2.5vw;
+    margin-left: -5vw;
+}
+
+a:hover, button:hover {
+    background-color: white;
+    color:brown;
+}
+
+label {
+    display: none;
+}

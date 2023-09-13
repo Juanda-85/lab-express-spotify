@@ -7,10 +7,10 @@
     <title>Spotify API</title>
 </head>
 <body>
-  <h1>Artists</h1>
+  <h1>Albums</h1>
   <div class="row">
-      {{#each results}} 
-        {{> artist this}} 
+      {{#each albumsData}} 
+        {{> albums this}} 
       {{/each}}
   </div>
 </body>
